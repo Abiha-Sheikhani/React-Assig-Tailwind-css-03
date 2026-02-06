@@ -75,7 +75,7 @@ const SectionTwo = () => {
                 <p className="mt-4 text-md  font-medium text-gray-900">
                 Market leader across
               </p>
-              <p className="mt-4 text-md  font-medium text-gray-900">
+              <p className="mt-2 text-md  font-medium text-gray-900">
                 18 Categories
               </p>
             </div>

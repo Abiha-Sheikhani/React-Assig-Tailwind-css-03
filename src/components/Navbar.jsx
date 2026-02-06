@@ -31,7 +31,7 @@ const Navbar = () => {
 
         {/* Logo in the center */}
         <a href="#" className="flex items-center space-x-3">
-          <img src={logo} className="h-8" alt="Circle Logo" />
+          <img src={logo} className="h-8" alt="CircleLogo" />
           <span className="text-xl font-bold text-gray-900">Circle</span>
         </a>
 
