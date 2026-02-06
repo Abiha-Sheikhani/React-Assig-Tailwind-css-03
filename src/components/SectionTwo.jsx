@@ -65,13 +65,19 @@ const SectionTwo = () => {
           {images.map((img, index) => (
             <div
               key={index}
-              className="flex items-center justify-center rounded-xl bg-gray-50 p-6 hover:shadow-md transition"
+              className="flex items-center flex-col justify-center rounded-xl bg-gray-50 p-4 hover:shadow-md transition"
             >
               <img
                 src={img}
                 alt={`award-${index + 1}`}
                 className="max-h-32 object-contain"
               />
+                <p className="mt-4 text-md  font-medium text-gray-900">
+                Market leader across
+              </p>
+              <p className="mt-4 text-md  font-medium text-gray-900">
+                18 Categories
+              </p>
             </div>
           ))}
         </div>
